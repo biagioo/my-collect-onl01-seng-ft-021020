@@ -1,12 +1,8 @@
 def my_collect(array) 
-  i = 0 
-  collection = 0 
-  while i < array.length 
-    collection << yield(array[i])
-    i += 1 
-    end
-  end
-  collection
+ new_arr = [] 
+ array do |name| 
+    new_arr << name.split(" ").first
+ 
 end
 
 # def my_collect(array) 
