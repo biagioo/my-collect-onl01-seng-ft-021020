@@ -1,4 +1,5 @@
 def my_collect(array) 
+ i = 0
  new_arr = [] 
  array do |name| 
     new_arr << name.split(" ").first
