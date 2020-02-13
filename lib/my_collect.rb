@@ -8,10 +8,3 @@ def my_collect(collection)
   new_collection
 end
 
-# def my_collect(array) 
-#   new_arr = []
-#   array.collect do |name| 
-#     new_arr << name.upcase 
-#     end 
-#   new_arr
-# end 
