@@ -9,3 +9,4 @@ def my_collect(array)
   collection
 end
 
+if my_collect(array)
